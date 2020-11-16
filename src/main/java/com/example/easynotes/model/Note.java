@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "notes")
@@ -15,6 +16,7 @@ public class Note {
     private String name;
 
     private String text;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;

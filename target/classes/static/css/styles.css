@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 673px;
+    margin-top: 77px;
+    text-align: center;
+}
+
+th {
+    height: 70px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #75e079;
+}
+
+form {
+    margin: auto;
+    width: 34%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
